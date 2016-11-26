@@ -1,0 +1,26 @@
+{
+  "name": "fredericomartini/debug",
+  "description": "A simple class to print pretty values in PHP",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Frederico Martini"
+    }
+  ],
+  "keywords": [
+    "print",
+    "debug",
+    "echo",
+    "tool",
+    "php"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fma\\": "src/"
+    }
+  }
+}
